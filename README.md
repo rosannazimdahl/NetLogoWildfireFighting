@@ -9,7 +9,8 @@ The following file placed in the model's directory:
 elevation.asc – GIS elevation data<br/>
 
 **Environment**<br/>
-The map and fire scenario is from an area of a large Swedish wildfire 2014, read the wildfire report here: https://www.msb.se/sv/publikationer/skogsbranden-i-vastmanland-2014--observatorsrapport/". From there is the elevation as well as the current temperature and wind speed during that particular wildfire.
+The map and fire scenario is from an area of a large Swedish wildfire 2014, read the report here: https://www.msb.se/sv/publikationer/skogsbranden-i-vastmanland-2014--observatorsrapport/. From that scenario, the elevation as well as the current temperature and wind speed is extracted.
+In the model there are also two cities placed (orange squares) to represent a residential area and influences the firefighters' tactics.
 
 **Global Variables**<br/>
 The model uses global variables to track:<br/>
