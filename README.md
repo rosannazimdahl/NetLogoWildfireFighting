@@ -13,7 +13,6 @@ The map and fire scenario is from an area of a large Swedish wildfire 2014 (repo
 In the model there are also two cities placed (orange squares) to represent residential areas to influence the firefighters' tactics.
 
 **Simulation Flow**<br/>
-Setup Procedures<br/>
 - Click "setup": Loads and processes elevation raster, computes slope and aspect, applies values to patches, and color them accordingly. Resets key variables<br/>
 - Click "go": Starts the fire from a given ignition point. The fire starts spreading. The agents start extinguishing the fire after "response-time" amount of ticks. The simulation counts upwards with ticks representing minutes. <br/>
 
