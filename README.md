@@ -4,8 +4,8 @@ This is a NetLogo model representing a wildfire fighting scenario of a System-of
 
 **Installation and Requirements**<br/>
 To run this model, you need: <br/>
-NetLogo 6.0+<br/>
-The following external file placed in the model's directory:<br/>
+NetLogo 6.0+ (free download)<br/> 
+The following file placed in the model's directory: 
 elevation.asc – GIS elevation data<br/>
 
 **Environment**<br/>
