@@ -5,16 +5,19 @@ This is a NetLogo model representing a wildfire fighting scenario of a System-of
 **Installation and Requirements**<br/>
 To run this model, you need: <br/>
 NetLogo 6.0+ (free download)<br/> 
-The following file placed in the model's directory: 
+The following files placed in the same directory:<br/>
+netlogo_model_fire.nlogo<br/>
 elevation.asc – GIS elevation data<br/>
 
-**Environment**<br/>
-The map and fire scenario is from an area of a large Swedish wildfire 2014 (report: https://www.msb.se/sv/publikationer/skogsbranden-i-vastmanland-2014--observatorsrapport/). From that scenario, the elevation as well as the current temperature and wind speed are extracted. The patches have different colors depending on the elevation, being green (forest), blue (water), and black (other non-burnable areas).<br/>
-In the model there are also two cities placed (orange squares) to represent residential areas to influence the firefighters' tactics.
+Open "netlogo_model_fire.nlogo" in NetLogo environment. <br/>
 
 **Simulation Flow**<br/>
 - Click "setup": Loads and processes elevation raster, computes slope and aspect, applies values to patches, and color them accordingly. Resets key variables<br/>
 - Click "go": Starts the fire from a given ignition point. The fire starts spreading. The agents start extinguishing the fire after "response-time" amount of ticks. The simulation counts upwards with ticks representing minutes. <br/>
+
+**Environment**<br/>
+The map and fire scenario is from an area of a large Swedish wildfire 2014 (report: https://www.msb.se/sv/publikationer/skogsbranden-i-vastmanland-2014--observatorsrapport/). From that scenario, the elevation as well as the current temperature and wind speed are extracted. The patches have different colors depending on the elevation, being green (forest), blue (water), and black (other non-burnable areas).<br/>
+In the model there are also two cities placed (orange squares) to represent residential areas to influence the firefighters' tactics.
 
 **Simulation input variables**<br/>
 Each simulation is run according to the SoS design variables you choose by yourself in the simulatoin interface: 
