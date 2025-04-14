@@ -30,7 +30,7 @@ spread-agents-equally: Distributes agents evenly across all fire sectors<br/>
 decentralized-decision: The decisions of where to attack the fire is made by the agents. The helicopters target fires near water and the ground firefighters go to nearest fire depending on their location.<br/>
 go-around: Helicopters and firefighters move in opposite directions around the fire<br/>_
 
-**Fire Spread**<br/>
+**Fire Spread Functions**<br/>
 general_fire_spread: Basic spread to nearby patches based on heat<br/>
 head_fire_spread: Enhanced spread along wind direction<br/>
 ignite: Starts new fire agents if patch temperature exceeds threshold<br/>
