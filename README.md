@@ -31,10 +31,10 @@ decentralized-decision: The decisions of where to attack the fire is made by the
 go-around: Helicopters and firefighters move in opposite directions around the fire<br/>_
 
 **Fire Spread Functions**<br/>
-general_fire_spread: Basic spread to nearby patches based on heat<br/>
-head_fire_spread: Enhanced spread along wind direction<br/>
-ignite: Starts new fire agents if patch temperature exceeds threshold<br/>
-fire_dying: Fire dies if it has burned for some period of time or cooled by water<br/>
+- general_fire_spread: Basic spread to nearby patches based on heat<br/>
+- head_fire_spread: Enhanced spread along wind direction<br/>
+- ignite: Starts new fire agents if patch temperature exceeds threshold<br/>
+- fire_dying: Fire dies if it has burned for some period of time or cooled by water<br/>
 Each fire is categorized into head, heel, left flank, or right flank, based on its direction relative to the fire center and wind.<br/>
 
 A "Situation Assessment" is done regularly to evaluate the fire situation. Every "hour" (60 ticks), the model:<br/>
