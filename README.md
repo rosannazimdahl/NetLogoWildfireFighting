@@ -14,16 +14,16 @@ In the model there are also two cities placed (orange squares) to represent resi
 
 **Simulation Flow**<br/>
 Setup Procedures<br/>
-Click "setup": Loads and processes elevation raster, computes slope and aspect, applies values to patches, and color them accordingly. Resets key variables<br/>
-Click "go": Starts the fire from a given ignition point. The fire starts spreading. The agents start extinguishing the fire after "response-time" amount of ticks. The simulation counts upwards with ticks representing minutes. <br/>
+- Click "setup": Loads and processes elevation raster, computes slope and aspect, applies values to patches, and color them accordingly. Resets key variables<br/>
+- Click "go": Starts the fire from a given ignition point. The fire starts spreading. The agents start extinguishing the fire after "response-time" amount of ticks. The simulation counts upwards with ticks representing minutes. <br/>
 
 **Simulation input variables**<br/>
 Each simulation is run according to the SoS design variables you choose by yourself in the simulatoin interface: 
-response-time - The time (minutes) it takes for the SoS to start the firefighting operation<br/>
-agent-amount - The amount of agents there are in the operation<br/>
-perc-ground - How big proportation of the agent-amount which is ground agents, the rest is helicopters.<br/>
-Time strategy update - How often the fire assessment is done, to redistribute agents around the fire.<br/>
-Strategy-choice - Which of the strategies the agents do:<br/>
+- response-time - The time (minutes) it takes for the SoS to start the firefighting operation<br/>
+- agent-amount - The amount of agents there are in the operation<br/>
+- perc-ground - How big proportation of the agent-amount which is ground agents, the rest is helicopters.<br/>
+- Time strategy update - How often the fire assessment is done, to redistribute agents around the fire.<br/>
+- Strategy-choice - Which of the strategies the agents do:<br/>
 _largest-firesector: Concentrates all agents on the sector with the most active fires<br/>
 largest-rel-change: Focuses on the sector with the fastest relative increase<br/>
 protect-city: Assigns agents to areas close to city zones<br/>
