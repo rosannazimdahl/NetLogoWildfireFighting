@@ -5,10 +5,8 @@ This is a NetLogo model representing a wildfire fighting scenario of a System-of
 **Installation and Requirements**<br/>
 To run this model, you need: <br/>
 NetLogo 6.0+<br/>
-GIS and table extensions (included in NetLogo)<br/>
-The following external files placed in the model's directory:<br/>
-heights140Fire2014Netlogo.asc – GIS elevation data<br/>
-ImageFire2014.png – Optional image overlay for visualization<br/>
+The following external file placed in the model's directory:<br/>
+elevation.asc – GIS elevation data<br/>
 
 **Environment**<br/>
 The map and fire scenario is from an area of a large Swedish wildfire 2014, read the wildfire report here: https://www.msb.se/sv/publikationer/skogsbranden-i-vastmanland-2014--observatorsrapport/". From there is the elevation as well as the current temperature and wind speed during that particular wildfire.
