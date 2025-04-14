@@ -1,6 +1,6 @@
 # Netlogo Model for Firefighting
 **Overview**<br/>
-This is a NetLogo model representing a wildfire fighting scenario of a System-of-Systems (SoS), developed in a work to analyze the SoS and its effectiveness. The outputs from the simulation are data which represents stakeholders' interests, which are extended and put together outside NetLogo to Key Performance Indicators (KPIs). The model provides tools for monitoring the fire and generate temporal reports to evaluate the fire situation. Fire suppression is handled by firefighting agents (ground crews and helicopters), which act based on predefined strategies which adapt depending on the situation.
+This is a NetLogo model representing a wildfire fighting scenario of a System-of-Systems (SoS), developed in a work to analyze the SoS and its effectiveness. The outputs from the simulation are data which are extended outside NetLogo to Key Performance Indicators (KPIs) which represents stakeholders' interests. The model provides tools for monitoring the fire and generate temporal reports to evaluate the fire situation. Fire suppression is handled by firefighting agents (ground crews and helicopters), which act based on predefined strategies which adapt depending on the situation.
 
 **Installation and Requirements**<br/>
 To run this model, you need: <br/>
