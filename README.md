@@ -40,20 +40,23 @@ Each fire is categorized into head, heel, left flank, or right flank, based on i
 A "Situation Assessment" is done regularly to evaluate the fire situation. Every "hour" (60 ticks), the model:<br/>
 - Generates a snapshot of fire counts per sector to compare the sectors fire size.<br/>
 - Computes both numerical and relative change rates of the fire spread.<br/>
-Plots:<br/>
+
+**Plots in user interface**<br/>
+
 Situation assessment: <br/>
-Number of fires agents in each sector<br/>
-Total amount of fire agents <br/>
-Relative change rate of fire agents in each sector from last situation assessment <br/>
-Numerical change rate of fire agents in each sector from last situation assessment <br/>
-How many fires exitinguished by ground firefighters and helicopters <br/>
+- Number of fires agents in each sector<br/>
+- Total amount of fire agents <br/>
+- Relative change rate of fire agents in each sector from last situation assessment <br/>
+- Numerical change rate of fire agents in each sector from last situation assessment <br/>
+- How many fires exitinguished by ground firefighters and helicopters <br/>
 
 Costs:<br/>
 - Firefighters costs, helicopter costs, and number of firefighters and helicopters.<br/>
+
 Burn:<br/>
 - Burnt area, value of burnt area, nr of burnt cities, emitted CO2 from burned trees.<br/>
 
-**Outputs**
+**Outputs**<br/>
 The simulations are run with Python according to a Design of Experiments. The following outputs are derived and saved in CSV files:<br/>
 - Burned area (burned-area)<br/>
 - Lost forest value (forest_value_loss)<br/>
